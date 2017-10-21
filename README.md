@@ -1,6 +1,21 @@
 # ShAndroidHttpService
 Android http服务器
 
+Download the latest JAR or grab via Maven:
+~~~xml
+<dependency>
+  <groupId>code.zsh.sh.com.shandroidhttpservice</groupId>
+  <artifactId>httplib</artifactId>
+  <version>1.0.0</version>
+  <type>pom</type>
+</dependency>
+~~~
+or Gradle:
+~~~gradle
+compile 'code.zsh.sh.com.shandroidhttpservice:httplib:1.0.0'
+~~~
+
+
 启动http服务
 
 ~~~java
